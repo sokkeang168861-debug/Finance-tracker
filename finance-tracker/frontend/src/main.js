@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import axios from 'axios' 
-axios.defaults.baseURL = 'http://172.16.16.80:5000';
+axios.defaults.baseURL = 'http://172.16.16.164.:5000';
 
 const app = createApp(App)
 
